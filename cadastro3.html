@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Endereço - AgendaAI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles/style.css" rel="stylesheet">
+</head>
+<body class="d-flex justify-content-center align-items-center vh-100">
+  <div class="card p-4 col-10 col-md-6 col-lg-4">
+    <h3 class="text-center mb-4">Cadastre seu convenio</h3>
+    <span style="padding-bottom: 20px;">Passo 3 de 3</span>
+    <form>
+        <div class="mb-3" style="padding-bottom: 10px;">
+            <select class="form-select" id="convenioDropdown">
+              <option value="" selected disabled>Selecione a Instituição...</option>
+              <option value="1">Unimed</option>
+              <option value="2">Bradesco Saúde</option>
+              <option value="3">Amil</option>
+              <option value="4">SulAmérica Saúde</option>
+              <option value="5">Golden Cross</option>
+              <option value="6">Caixa Econômica Saúde</option>
+              <option value="7">Prevent Senior</option>
+            </select>
+          </div>
+      <div class="mb-3" style="padding-bottom: 10px;">
+        <input type="text" class="form-control" id="bairro" placeholder="Número do convenio">
+      </div>
+     
+      <a href="confirmacao_cadastro.html" class="btn btn-primary w-100">Cadastrar</a>
+    </form>
+    <a class="align-center" href="index.html">Voltar</a>
+  </div>
+</body>
+</html>
